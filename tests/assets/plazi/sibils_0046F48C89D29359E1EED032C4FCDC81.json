@@ -1,0 +1,183 @@
+{
+  "_id": "0046F48C89D29359E1EED032C4FCDC81",
+  "document": {
+    "treatment_title": "Camponotus Wroughtonii Forel, sp. nov.",
+    "zenodo-doi": "http://doi.org/10.5281/zenodo.6293004",
+    "treatment-bank-uri": "http://treatment.plazi.org/id/0046F48C89D29359E1EED032C4FCDC81",
+    "article-title": "Les formicides de l'Empire des Indes et de Ceylan. Part II. Suite au genre Camponotus",
+    "publication-doi": null,
+    "nomenclature-taxon-name": "Camponotus Wroughtonii Forel",
+    "text": "This treatment is a stub. You can help Plazi making the full treatment available.\n",
+    "_id": "0046F48C89D29359E1EED032C4FCDC81"
+  },
+  "sentences": [
+    {
+      "field": "treatment_title",
+      "sentence_number": 1,
+      "sentence_length": 38,
+      "sentence": "Camponotus Wroughtonii Forel, sp. nov."
+    },
+    {
+      "field": "nomenclature-taxon-name",
+      "sentence_number": 2,
+      "sentence_length": 28,
+      "sentence": "Camponotus Wroughtonii Forel"
+    },
+    {
+      "field": "text",
+      "sentence_number": 3,
+      "sentence_length": 25,
+      "sentence": "This treatment is a stub."
+    },
+    {
+      "field": "text",
+      "sentence_number": 4,
+      "sentence_length": 55,
+      "sentence": "You can help Plazi making the full treatment available."
+    },
+    {
+      "field": "text",
+      "sentence_number": 5,
+      "sentence_length": 0,
+      "sentence": ""
+    }
+  ],
+  "annotations": [
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Wroughtonii",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": "treatment_title",
+      "sentence_number": 1,
+      "start_index": 11,
+      "end_index": 22,
+      "concept_length": 11,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "3260023",
+      "concept_form": "Camponotus Wroughtonii",
+      "preferred_term": "Camponotus wroughtonii",
+      "nature": "pref_term",
+      "field": "treatment_title",
+      "sentence_number": 1,
+      "start_index": 0,
+      "end_index": 22,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "13390",
+      "concept_form": "Camponotus",
+      "preferred_term": "Camponotus",
+      "nature": "pref_term",
+      "field": "treatment_title",
+      "sentence_number": 1,
+      "start_index": 0,
+      "end_index": 10,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "nextprot",
+      "version": "v2.56.0",
+      "concept_id": "NX_Q9UIW2",
+      "concept_form": "nov",
+      "preferred_term": "PLXNA1",
+      "nature": "synonym",
+      "field": "treatment_title",
+      "sentence_number": 1,
+      "start_index": 34,
+      "end_index": 37,
+      "concept_length": 3,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Wroughtonii",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": "nomenclature-taxon-name",
+      "sentence_number": 2,
+      "start_index": 11,
+      "end_index": 22,
+      "concept_length": 11,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "13390",
+      "concept_form": "Camponotus",
+      "preferred_term": "Camponotus",
+      "nature": "pref_term",
+      "field": "nomenclature-taxon-name",
+      "sentence_number": 2,
+      "start_index": 0,
+      "end_index": 10,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "3260023",
+      "concept_form": "Camponotus Wroughtonii",
+      "preferred_term": "Camponotus wroughtonii",
+      "nature": "pref_term",
+      "field": "nomenclature-taxon-name",
+      "sentence_number": 2,
+      "start_index": 0,
+      "end_index": 22,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Plazi",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": "text",
+      "sentence_number": 4,
+      "start_index": 13,
+      "end_index": 18,
+      "concept_length": 5,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biotic_interaction",
+      "concept_source": "robiext",
+      "version": "unknown",
+      "concept_id": "ROBI_000044",
+      "concept_form": "help",
+      "preferred_term": "helps",
+      "nature": "synonym",
+      "field": "text",
+      "sentence_number": 4,
+      "start_index": 8,
+      "end_index": 12,
+      "concept_length": 4,
+      "provenance": "ECO_0000366"
+    }
+  ],
+  "relations": []
+}

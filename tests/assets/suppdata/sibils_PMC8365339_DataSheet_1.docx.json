@@ -1,0 +1,4641 @@
+{
+  "_id": "PMC8365339_DataSheet_1.docx",
+  "document": {
+    "_id": "PMC8365339_DataSheet_1.docx",
+    "pmcid": "PMC8365339",
+    "filename": "DataSheet_1.docx",
+    "ext": "docx",
+    "text": "Supplementary Material\n\n\n\nSupplementary Figures\n\n\n\n\n\nFigure S1. Sequence analysis of LvTcf, related to Figure 1.\n\n(A) Nucleotide and deduced amino acid sequence of LvTcf. Catenin-binding domain (residues 1-56) was indicated with grey shadow. The sequence of HMG domain was underlined (residues 288-358) (B) Architecture of LvTcf. (C) Multiple sequence alignment among Tcf of L. vannamei and other species. (D) Phylogenetic analysis based on the amino-acid sequences of Tcfs. Protein sequences of different species were listed below: L. vannamei Tcf (MT241372), Tribolium castaneum pangolin isoform X2 (XP_008191150.1), Cephus cinctus protein pangolin, isoforms A/H/I/S isoform X7 (XP_015597923.1), Drosophila melanogaster pangolin, isoform H (NP_001014685.1), Branchiostoma belcheri transcription factor 7-like 2 isoform X4 (XP_019644519.1), Chrysemys picta bellii transcription factor 7 isoform X3 (XP_005309518.1), Gallus gallus transcription factor 7 isoform X1 (XP_015149481.1), Monopterus albus transcription factor 7 (XP_020467632.1),  Homo sapiens transcription factor 7-like 2 isoform 5 (NP_001139757.1), Penaeus monodon protein pangolin, isoforms A/H/I/S-like isoform X5 (XP_037783988.1), Nilaparvata lugens protein pangolin, isoforms A/H/I/S isoform X12 ( XP_039276382.1), Bos taurus transcription factor 7-like 2 (NP_001137211.1), Onthophagus taurus protein pangolin, isoforms A/H/I/S isoform X3 (XP_022914178).\n\n\n\n\n\nFigure S2. Screening of WSSV proteins that interact with LvTcf, related to Figure 3. \n\nWSSV immediate-early genes encoding WSV403, WSV249, WSV079, WSV083, WSV069, WSV100, and WSV056 were cloned into the pIEx-4 plasmid and co-expressed with a LvTcf expression plasmid in High Five cells. After 48 h, cell lysates were used for Co-IP experiment and western blotting.\n\n\n\n\n\nFigure S3. The purification of LvTcf expressed in High Five cells, related to Figure 6. \n\nFLAG-LvTcf co-expressed with pIEx-4, WSV083WT or WSV083DM in High Five cells. After 48 h, cell lysates were immunoprecipitated by an Anti-FLAG M2 Affinity Gel. The purified products were analyzed using SDS-PAGE and stained with Coomassie blue. The target bands (as indicated) were the cut for mass spectrometry analysis.",
+    "licence": "CC BY",
+    "title": "Phosphorylation of Shrimp Tcf by a Viral Protein Kinase WSV083 Suppresses Its Antiviral Effect",
+    "publication_date": "2021-08-02",
+    "pmc_release_date": null,
+    "pubyear": "2021"
+  },
+  "sentences": [
+    {
+      "sentence_number": 1,
+      "sentence_length": 63,
+      "sentence": "Supplementary Material\n\n\n\nSupplementary Figures\n\n\n\n\n\nFigure S1."
+    },
+    {
+      "sentence_number": 2,
+      "sentence_length": 106,
+      "sentence": "Sequence analysis of LvTcf, related to Figure 1.\n\n(A) Nucleotide and deduced amino acid sequence of LvTcf."
+    },
+    {
+      "sentence_number": 3,
+      "sentence_length": 70,
+      "sentence": "Catenin-binding domain (residues 1-56) was indicated with grey shadow."
+    },
+    {
+      "sentence_number": 4,
+      "sentence_length": 87,
+      "sentence": "The sequence of HMG domain was underlined (residues 288-358) (B) Architecture of LvTcf."
+    },
+    {
+      "sentence_number": 5,
+      "sentence_length": 75,
+      "sentence": "(C) Multiple sequence alignment among Tcf of L. vannamei and other species."
+    },
+    {
+      "sentence_number": 6,
+      "sentence_length": 68,
+      "sentence": "(D) Phylogenetic analysis based on the amino-acid sequences of Tcfs."
+    },
+    {
+      "sentence_number": 7,
+      "sentence_length": 947,
+      "sentence": "Protein sequences of different species were listed below: L. vannamei Tcf (MT241372), Tribolium castaneum pangolin isoform X2 (XP_008191150.1), Cephus cinctus protein pangolin, isoforms A/H/I/S isoform X7 (XP_015597923.1), Drosophila melanogaster pangolin, isoform H (NP_001014685.1), Branchiostoma belcheri transcription factor 7-like 2 isoform X4 (XP_019644519.1), Chrysemys picta bellii transcription factor 7 isoform X3 (XP_005309518.1), Gallus gallus transcription factor 7 isoform X1 (XP_015149481.1), Monopterus albus transcription factor 7 (XP_020467632.1),  Homo sapiens transcription factor 7-like 2 isoform 5 (NP_001139757.1), Penaeus monodon protein pangolin, isoforms A/H/I/S-like isoform X5 (XP_037783988.1), Nilaparvata lugens protein pangolin, isoforms A/H/I/S isoform X12 ( XP_039276382.1), Bos taurus transcription factor 7-like 2 (NP_001137211.1), Onthophagus taurus protein pangolin, isoforms A/H/I/S isoform X3 (XP_022914178)."
+    },
+    {
+      "sentence_number": 8,
+      "sentence_length": 10,
+      "sentence": "Figure S2."
+    },
+    {
+      "sentence_number": 9,
+      "sentence_length": 275,
+      "sentence": "Screening of WSSV proteins that interact with LvTcf, related to Figure 3. \n\nWSSV immediate-early genes encoding WSV403, WSV249, WSV079, WSV083, WSV069, WSV100, and WSV056 were cloned into the pIEx-4 plasmid and co-expressed with a LvTcf expression plasmid in High Five cells."
+    },
+    {
+      "sentence_number": 10,
+      "sentence_length": 77,
+      "sentence": "After 48 h, cell lysates were used for Co-IP experiment and western blotting."
+    },
+    {
+      "sentence_number": 11,
+      "sentence_length": 10,
+      "sentence": "Figure S3."
+    },
+    {
+      "sentence_number": 12,
+      "sentence_length": 156,
+      "sentence": "The purification of LvTcf expressed in High Five cells, related to Figure 6. \n\nFLAG-LvTcf co-expressed with pIEx-4, WSV083WT or WSV083DM in High Five cells."
+    },
+    {
+      "sentence_number": 13,
+      "sentence_length": 81,
+      "sentence": "After 48 h, cell lysates were immunoprecipitated by an Anti-FLAG M2 Affinity Gel."
+    },
+    {
+      "sentence_number": 14,
+      "sentence_length": 83,
+      "sentence": "The purified products were analyzed using SDS-PAGE and stained with Coomassie blue."
+    },
+    {
+      "sentence_number": 15,
+      "sentence_length": 76,
+      "sentence": "The target bands (as indicated) were the cut for mass spectrometry analysis."
+    }
+  ],
+  "annotations": [
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Supplementary",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 1,
+      "start_index": 26,
+      "end_index": 39,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Material",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 1,
+      "start_index": 14,
+      "end_index": 22,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Figure",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 1,
+      "start_index": 53,
+      "end_index": 59,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D058537",
+      "concept_form": "Supplementary Material",
+      "preferred_term": "Electronic Supplementary Materials",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 1,
+      "start_index": 0,
+      "end_index": 22,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Nucleotide",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 2,
+      "start_index": 54,
+      "end_index": 64,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D017421",
+      "concept_form": "Sequence analysis",
+      "preferred_term": "Sequence Analysis",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 2,
+      "start_index": 0,
+      "end_index": 17,
+      "concept_length": 17,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "chebi",
+      "version": "v227",
+      "concept_id": "CHEBI:33709",
+      "concept_form": "amino acid",
+      "preferred_term": "amino acid",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 2,
+      "start_index": 77,
+      "end_index": 87,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D009711",
+      "concept_form": "Nucleotide",
+      "preferred_term": "Nucleotides",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 2,
+      "start_index": 54,
+      "end_index": 64,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_135",
+      "concept_form": "Sequence analysis",
+      "preferred_term": "Sequence Analysis",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 2,
+      "start_index": 0,
+      "end_index": 17,
+      "concept_length": 17,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "drug",
+      "concept_source": "atc",
+      "version": "v2023AA",
+      "concept_id": "http://purl.bioontology.org/ontology/STY/T087",
+      "concept_form": "amino acid sequence",
+      "preferred_term": "Amino Acid Sequence",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 2,
+      "start_index": 77,
+      "end_index": 96,
+      "concept_length": 19,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_134",
+      "concept_form": "sequence",
+      "preferred_term": "sequence",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 2,
+      "start_index": 88,
+      "end_index": 96,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "chebi",
+      "version": "v227",
+      "concept_id": "CHEBI:36976",
+      "concept_form": "Nucleotide",
+      "preferred_term": "nucleotide",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 2,
+      "start_index": 54,
+      "end_index": 64,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D000595",
+      "concept_form": "amino acid sequence",
+      "preferred_term": "Amino Acid Sequence",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 2,
+      "start_index": 77,
+      "end_index": 96,
+      "concept_length": 19,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Figure",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 2,
+      "start_index": 39,
+      "end_index": 45,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "5343",
+      "concept_form": "domain",
+      "preferred_term": "Sulfisomidine",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 3,
+      "start_index": 16,
+      "end_index": 22,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "1-56",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 3,
+      "start_index": 33,
+      "end_index": 37,
+      "concept_length": 4,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "ppi-ptm",
+      "concept_source": "ppiptm",
+      "version": "unknown",
+      "concept_id": "PPI:2",
+      "concept_form": "binding",
+      "preferred_term": "bind",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 3,
+      "start_index": 8,
+      "end_index": 15,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D051177",
+      "concept_form": "Catenin",
+      "preferred_term": "Catenins",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 3,
+      "start_index": 0,
+      "end_index": 7,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_L354",
+      "concept_form": "grey",
+      "preferred_term": "Grey",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 3,
+      "start_index": 58,
+      "end_index": 62,
+      "concept_length": 4,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "molecular_function",
+      "concept_source": "go_mf",
+      "version": "v2023-11-15",
+      "concept_id": "GO:0005488",
+      "concept_form": "binding",
+      "preferred_term": "binding",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 3,
+      "start_index": 8,
+      "end_index": 15,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_W288",
+      "concept_form": "HMG",
+      "preferred_term": "HMG",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 4,
+      "start_index": 16,
+      "end_index": 19,
+      "concept_length": 3,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_134",
+      "concept_form": "sequence",
+      "preferred_term": "sequence",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 4,
+      "start_index": 4,
+      "end_index": 12,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "5343",
+      "concept_form": "domain",
+      "preferred_term": "Sulfisomidine",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 4,
+      "start_index": 20,
+      "end_index": 26,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "12733",
+      "concept_form": "HMG",
+      "preferred_term": "2-Chloroethyl ethyl sulfide",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 4,
+      "start_index": 16,
+      "end_index": 19,
+      "concept_length": 3,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D001108",
+      "concept_form": "Architecture",
+      "preferred_term": "Architecture",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 4,
+      "start_index": 65,
+      "end_index": 77,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Architecture",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 4,
+      "start_index": 65,
+      "end_index": 77,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "288-358",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 4,
+      "start_index": 52,
+      "end_index": 59,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Multiple",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 5,
+      "start_index": 4,
+      "end_index": 12,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D016415",
+      "concept_form": "sequence alignment",
+      "preferred_term": "Sequence Alignment",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 5,
+      "start_index": 13,
+      "end_index": 31,
+      "concept_length": 18,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_134",
+      "concept_form": "sequence",
+      "preferred_term": "sequence",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 5,
+      "start_index": 13,
+      "end_index": 21,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "disease",
+      "concept_source": "ncit",
+      "version": "v23.10e",
+      "concept_id": "C180354",
+      "concept_form": "Multiple",
+      "preferred_term": "Multiple Metastases",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 5,
+      "start_index": 4,
+      "end_index": 12,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "method",
+      "concept_source": "detectionmethods",
+      "version": "v2022",
+      "concept_id": "ViDM70",
+      "concept_form": "Phylogenetic analysis",
+      "preferred_term": "phylogenetic analysis",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 6,
+      "start_index": 4,
+      "end_index": 25,
+      "concept_length": 21,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D010802",
+      "concept_form": "Phylogenetic analysis",
+      "preferred_term": "Phylogeny",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 6,
+      "start_index": 4,
+      "end_index": 25,
+      "concept_length": 21,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_134",
+      "concept_form": "sequences",
+      "preferred_term": "sequence",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 6,
+      "start_index": 50,
+      "end_index": 59,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Phylogenetic",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 6,
+      "start_index": 4,
+      "end_index": 16,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D000595",
+      "concept_form": "amino-acid sequences",
+      "preferred_term": "Amino Acid Sequence",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 6,
+      "start_index": 39,
+      "end_index": 59,
+      "concept_length": 20,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "chebi",
+      "version": "v227",
+      "concept_id": "CHEBI:33709",
+      "concept_form": "amino-acid",
+      "preferred_term": "amino acid",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 6,
+      "start_index": 39,
+      "end_index": 49,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_L878",
+      "concept_form": "A/H/I",
+      "preferred_term": "GMK-AH-1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 769,
+      "end_index": 774,
+      "concept_length": 5,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "XP_022914178",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 933,
+      "end_index": 945,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D002645",
+      "concept_form": "Gallus gallus",
+      "preferred_term": "Chickens",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 442,
+      "end_index": 455,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "XP_015149481.1",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 491,
+      "end_index": 505,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D004331",
+      "concept_form": "Drosophila melanogaster",
+      "preferred_term": "Drosophila melanogaster",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 223,
+      "end_index": 246,
+      "concept_length": 23,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "644247",
+      "concept_form": "pangolin",
+      "preferred_term": "Manis",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 750,
+      "end_index": 758,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_147",
+      "concept_form": "transcription",
+      "preferred_term": "transcription",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 580,
+      "end_index": 593,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "Q9V4B0",
+      "concept_form": "protein pangolin, isoforms A/H/I/S",
+      "preferred_term": "CG34403",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 886,
+      "end_index": 920,
+      "concept_length": 34,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "211228",
+      "concept_form": "Cephus cinctus",
+      "preferred_term": "Cephus cinctus",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 144,
+      "end_index": 158,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "XP_020467632.1",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 549,
+      "end_index": 563,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoform",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 194,
+      "end_index": 201,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "XP_015597923.1",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 206,
+      "end_index": 220,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "Q9V4B0",
+      "concept_form": "protein pangolin, isoforms A/H/I/S",
+      "preferred_term": "CG34403",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 159,
+      "end_index": 193,
+      "concept_length": 34,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "7-like",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 329,
+      "end_index": 335,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D051822",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "T Cell Transcription Factor 1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 456,
+      "end_index": 478,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "NP_001014685.1",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 268,
+      "end_index": 282,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "9031",
+      "concept_form": "Gallus gallus",
+      "preferred_term": "Gallus gallus",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 442,
+      "end_index": 455,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D051822",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "T Cell Transcription Factor 1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 819,
+      "end_index": 841,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Monopterus",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 508,
+      "end_index": 518,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "69676",
+      "concept_form": "isoform",
+      "preferred_term": "4-Iodoanisole",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 115,
+      "end_index": 122,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "XP_037783988.1",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 706,
+      "end_index": 720,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "69676",
+      "concept_form": "isoform",
+      "preferred_term": "4-Iodoanisole",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 921,
+      "end_index": 928,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "XP_005309518.1",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 425,
+      "end_index": 439,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "148904",
+      "concept_form": "Tribolium castaneum",
+      "preferred_term": "Tribolium castaneum",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 86,
+      "end_index": 105,
+      "concept_length": 19,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "covocorganism",
+      "version": "v2.0",
+      "concept_id": "SP_11",
+      "concept_form": "Homo sapiens",
+      "preferred_term": "Homo sapiens",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 567,
+      "end_index": 579,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "69676",
+      "concept_form": "isoform",
+      "preferred_term": "4-Iodoanisole",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 413,
+      "end_index": 420,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "6687",
+      "concept_form": "Penaeus monodon",
+      "preferred_term": "Penaeus monodon",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 638,
+      "end_index": 653,
+      "concept_length": 15,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "108931",
+      "concept_form": "Nilaparvata lugens",
+      "preferred_term": "Nilaparvata lugens",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 723,
+      "end_index": 741,
+      "concept_length": 18,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoform",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 338,
+      "end_index": 345,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Gallus",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 442,
+      "end_index": 448,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "insdc:MIR:00000029",
+      "concept_form": "MT241372",
+      "preferred_term": "Nucleotide Sequence Database",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 75,
+      "end_index": 83,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_clinic",
+      "version": "v.2023-12-18",
+      "concept_id": "9913",
+      "concept_form": "Bos taurus",
+      "preferred_term": "Bos taurus",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 808,
+      "end_index": 818,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D006801",
+      "concept_form": "Homo sapiens",
+      "preferred_term": "Humans",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 567,
+      "end_index": 579,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_E023",
+      "concept_form": "taurus",
+      "preferred_term": "PAE-iPS-2",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 812,
+      "end_index": 818,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "72790",
+      "concept_form": "5 (NP",
+      "preferred_term": "5-Nitro-1,10-phenanthroline",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 618,
+      "end_index": 623,
+      "concept_length": 5,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "MT241372",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 75,
+      "end_index": 83,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoform",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 479,
+      "end_index": 486,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "Q00417",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "Tcf1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 525,
+      "end_index": 547,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "NP_001137211.1",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 850,
+      "end_index": 864,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Penaeus",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 638,
+      "end_index": 645,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_clinic",
+      "version": "v.2023-12-18",
+      "concept_id": "7227",
+      "concept_form": "Drosophila melanogaster",
+      "preferred_term": "Drosophila melanogaster",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 223,
+      "end_index": 246,
+      "concept_length": 23,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "NP_001139757.1",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 621,
+      "end_index": 635,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "XP_020467632.1",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 549,
+      "end_index": 563,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D033561",
+      "concept_form": "Penaeus",
+      "preferred_term": "Penaeidae",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 638,
+      "end_index": 645,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "166361",
+      "concept_form": "Onthophagus taurus",
+      "preferred_term": "Onthophagus taurus",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 867,
+      "end_index": 885,
+      "concept_length": 18,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "Q00417",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "Tcf1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 456,
+      "end_index": 478,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Homo",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 567,
+      "end_index": 571,
+      "concept_length": 4,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "153563",
+      "concept_form": "Gallus gallus",
+      "preferred_term": "Gallus gallus",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 442,
+      "end_index": 455,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "XP_039276382.1",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 791,
+      "end_index": 805,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "212713",
+      "concept_form": "Penaeus monodon",
+      "preferred_term": "Penaeus monodon",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 638,
+      "end_index": 653,
+      "concept_length": 15,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "covocorganism",
+      "version": "v2.0",
+      "concept_id": "SP_14",
+      "concept_form": "pangolin",
+      "preferred_term": "Manidae",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 106,
+      "end_index": 114,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "43700",
+      "concept_form": "Monopterus albus",
+      "preferred_term": "Monopterus albus",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 508,
+      "end_index": 524,
+      "concept_length": 16,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "ena.embl:MIR:00000372",
+      "concept_form": "MT241372",
+      "preferred_term": "ENA",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 75,
+      "end_index": 83,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D014231",
+      "concept_form": "Tribolium",
+      "preferred_term": "Tribolium",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 86,
+      "end_index": 95,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "covocorganism",
+      "version": "v2.0",
+      "concept_id": "SP_14",
+      "concept_form": "pangolin",
+      "preferred_term": "Manidae",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 247,
+      "end_index": 255,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "Q9Z0V4",
+      "concept_form": "transcription factor 7-like 2",
+      "preferred_term": "Tcf4",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 308,
+      "end_index": 337,
+      "concept_length": 29,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D000086642",
+      "concept_form": "pangolin",
+      "preferred_term": "Pangolins",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 106,
+      "end_index": 114,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D000086642",
+      "concept_form": "pangolin",
+      "preferred_term": "Pangolins",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 247,
+      "end_index": 255,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "google.patent:MIR:00000537",
+      "concept_form": "MT241372",
+      "preferred_term": "Google Patents",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 75,
+      "end_index": 83,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "XP_015597923.1",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 206,
+      "end_index": 220,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_147",
+      "concept_form": "transcription",
+      "preferred_term": "transcription",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 456,
+      "end_index": 469,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "Q9Z0V4",
+      "concept_form": "transcription factor 7-like 2",
+      "preferred_term": "Tcf4",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 819,
+      "end_index": 848,
+      "concept_length": 29,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "655999",
+      "concept_form": "Monopterus albus",
+      "preferred_term": "Monopterus albus",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 508,
+      "end_index": 524,
+      "concept_length": 16,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_E023",
+      "concept_form": "taurus",
+      "preferred_term": "PAE-iPS-2",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 879,
+      "end_index": 885,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoform",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 777,
+      "end_index": 784,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_134",
+      "concept_form": "sequences",
+      "preferred_term": "sequence",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 8,
+      "end_index": 17,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "7741",
+      "concept_form": "Branchiostoma belcheri",
+      "preferred_term": "Branchiostoma belcheri",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 285,
+      "end_index": 307,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D051822",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "T Cell Transcription Factor 1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 308,
+      "end_index": 330,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "Q9Z0V4",
+      "concept_form": "transcription factor 7-like 2",
+      "preferred_term": "Tcf4",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 580,
+      "end_index": 609,
+      "concept_length": 29,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Tribolium",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 86,
+      "end_index": 95,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "covocorganism",
+      "version": "v2.0",
+      "concept_id": "SP_14",
+      "concept_form": "pangolin",
+      "preferred_term": "Manidae",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 750,
+      "end_index": 758,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D051822",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "T Cell Transcription Factor 1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 390,
+      "end_index": 412,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D000086642",
+      "concept_form": "pangolin",
+      "preferred_term": "Pangolins",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 750,
+      "end_index": 758,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoforms",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 904,
+      "end_index": 912,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Drosophila",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 223,
+      "end_index": 233,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "69676",
+      "concept_form": "isoform",
+      "preferred_term": "4-Iodoanisole",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 194,
+      "end_index": 201,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "644247",
+      "concept_form": "pangolin",
+      "preferred_term": "Manis",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 662,
+      "end_index": 670,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "7070",
+      "concept_form": "Tribolium castaneum",
+      "preferred_term": "Tribolium castaneum",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 86,
+      "end_index": 105,
+      "concept_length": 19,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoform",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 610,
+      "end_index": 617,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "nextprot",
+      "version": "v2.56.0",
+      "concept_id": "NX_P36402",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "TCF7",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 390,
+      "end_index": 412,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoform",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 694,
+      "end_index": 701,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Onthophagus",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 867,
+      "end_index": 878,
+      "concept_length": 11,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "XP_008191150.1",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 127,
+      "end_index": 141,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "XP_039276382.1",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 791,
+      "end_index": 805,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoform",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 257,
+      "end_index": 264,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "7227",
+      "concept_form": "Drosophila melanogaster",
+      "preferred_term": "Drosophila melanogaster",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 223,
+      "end_index": 246,
+      "concept_length": 23,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "644247",
+      "concept_form": "pangolin",
+      "preferred_term": "Manis",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 167,
+      "end_index": 175,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_L878",
+      "concept_form": "A/H/I",
+      "preferred_term": "GMK-AH-1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 186,
+      "end_index": 191,
+      "concept_length": 5,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_147",
+      "concept_form": "transcription",
+      "preferred_term": "transcription",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 390,
+      "end_index": 403,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D064175",
+      "concept_form": "Branchiostoma belcheri",
+      "preferred_term": "Lancelets",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 285,
+      "end_index": 307,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "69676",
+      "concept_form": "isoform",
+      "preferred_term": "4-Iodoanisole",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 338,
+      "end_index": 345,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "XP_019644519.1",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 350,
+      "end_index": 364,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "587306",
+      "concept_form": "Chrysemys picta bellii",
+      "preferred_term": "Chrysemys picta bellii",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 367,
+      "end_index": 389,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "9913",
+      "concept_form": "Bos taurus",
+      "preferred_term": "Bos taurus",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 808,
+      "end_index": 818,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoforms",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 760,
+      "end_index": 768,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Cephus",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 144,
+      "end_index": 150,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "genbank:GenBank_accession_number",
+      "concept_form": "MT241372",
+      "preferred_term": "GenBank",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 75,
+      "end_index": 83,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "Q9V4B0",
+      "concept_form": "protein pangolin, isoforms A/H/I/S",
+      "preferred_term": "CG34403",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 742,
+      "end_index": 776,
+      "concept_length": 34,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "644247",
+      "concept_form": "pangolin",
+      "preferred_term": "Manis",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 894,
+      "end_index": 902,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "7-like",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 601,
+      "end_index": 607,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_L878",
+      "concept_form": "A/H/I",
+      "preferred_term": "GMK-AH-1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 913,
+      "end_index": 918,
+      "concept_length": 5,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "69676",
+      "concept_form": "isoform",
+      "preferred_term": "4-Iodoanisole",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 479,
+      "end_index": 486,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D051822",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "T Cell Transcription Factor 1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 580,
+      "end_index": 602,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoforms",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 672,
+      "end_index": 680,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_147",
+      "concept_form": "transcription",
+      "preferred_term": "transcription",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 819,
+      "end_index": 832,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Nilaparvata",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 723,
+      "end_index": 734,
+      "concept_length": 11,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "262810",
+      "concept_form": "Onthophagus taurus",
+      "preferred_term": "Onthophagus taurus",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 867,
+      "end_index": 885,
+      "concept_length": 18,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D002417",
+      "concept_form": "Bos taurus",
+      "preferred_term": "Cattle",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 808,
+      "end_index": 818,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_L878",
+      "concept_form": "A/H/I",
+      "preferred_term": "GMK-AH-1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 681,
+      "end_index": 686,
+      "concept_length": 5,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoform",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 115,
+      "end_index": 122,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoform",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 413,
+      "end_index": 420,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "covocorganism",
+      "version": "v2.0",
+      "concept_id": "SP_14",
+      "concept_form": "pangolin",
+      "preferred_term": "Manidae",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 894,
+      "end_index": 902,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "XP_022914178",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 933,
+      "end_index": 945,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D000086642",
+      "concept_form": "pangolin",
+      "preferred_term": "Pangolins",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 894,
+      "end_index": 902,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "XP_015149481.1",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 491,
+      "end_index": 505,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "XP_008191150.1",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 127,
+      "end_index": 141,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D051822",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "T Cell Transcription Factor 1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 525,
+      "end_index": 547,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "nextprot",
+      "version": "v2.56.0",
+      "concept_id": "NX_Q9NQB0",
+      "concept_form": "transcription factor 7-like 2",
+      "preferred_term": "TCF7L2",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 308,
+      "end_index": 337,
+      "concept_length": 29,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Branchiostoma",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 285,
+      "end_index": 298,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "69676",
+      "concept_form": "isoform",
+      "preferred_term": "4-Iodoanisole",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 777,
+      "end_index": 784,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_147",
+      "concept_form": "transcription",
+      "preferred_term": "transcription",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 525,
+      "end_index": 538,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "377587",
+      "concept_form": "Cephus cinctus",
+      "preferred_term": "Cephus cinctus",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 144,
+      "end_index": 158,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "876508",
+      "concept_form": "Nilaparvata lugens",
+      "preferred_term": "Nilaparvata lugens",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 723,
+      "end_index": 741,
+      "concept_length": 18,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_clinic",
+      "version": "v.2023-12-18",
+      "concept_id": "9031",
+      "concept_form": "Gallus gallus",
+      "preferred_term": "Gallus gallus",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 442,
+      "end_index": 455,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "7-like",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 840,
+      "end_index": 846,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "XP_019644519.1",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 350,
+      "end_index": 364,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "nextprot",
+      "version": "v2.56.0",
+      "concept_id": "NX_P36402",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "TCF7",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 525,
+      "end_index": 547,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "nextprot",
+      "version": "v2.56.0",
+      "concept_id": "NX_Q9NQB0",
+      "concept_form": "transcription factor 7-like 2",
+      "preferred_term": "TCF7L2",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 819,
+      "end_index": 848,
+      "concept_length": 29,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Chrysemys",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 367,
+      "end_index": 376,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "NP_001014685.1",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 268,
+      "end_index": 282,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "Q00417",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "Tcf1",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 390,
+      "end_index": 412,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "covocorganism",
+      "version": "v2.0",
+      "concept_id": "SP_14",
+      "concept_form": "pangolin",
+      "preferred_term": "Manidae",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 662,
+      "end_index": 670,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "nextprot",
+      "version": "v2.56.0",
+      "concept_id": "NX_P36402",
+      "concept_form": "transcription factor 7",
+      "preferred_term": "TCF7",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 456,
+      "end_index": 478,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "406564",
+      "concept_form": "Branchiostoma belcheri",
+      "preferred_term": "Branchiostoma belcheri",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 285,
+      "end_index": 307,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "644247",
+      "concept_form": "pangolin",
+      "preferred_term": "Manis",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 106,
+      "end_index": 114,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "XP_037783988.1",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 706,
+      "end_index": 720,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoforms",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 177,
+      "end_index": 185,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D000086642",
+      "concept_form": "pangolin",
+      "preferred_term": "Pangolins",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 662,
+      "end_index": 670,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "XP_005309518.1",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 425,
+      "end_index": 439,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "644247",
+      "concept_form": "pangolin",
+      "preferred_term": "Manis",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 247,
+      "end_index": 255,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "69676",
+      "concept_form": "isoform",
+      "preferred_term": "4-Iodoanisole",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 610,
+      "end_index": 617,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_clinic",
+      "version": "v.2023-12-18",
+      "concept_id": "9606",
+      "concept_form": "Homo sapiens",
+      "preferred_term": "Homo sapiens",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 567,
+      "end_index": 579,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "nextprot",
+      "version": "v2.56.0",
+      "concept_id": "NX_Q9NQB0",
+      "concept_form": "transcription factor 7-like 2",
+      "preferred_term": "TCF7L2",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 580,
+      "end_index": 609,
+      "concept_length": 29,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "69676",
+      "concept_form": "isoform",
+      "preferred_term": "4-Iodoanisole",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 694,
+      "end_index": 701,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "Q9V4B0",
+      "concept_form": "protein pangolin, isoforms A/H/I/S",
+      "preferred_term": "CG34403",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 654,
+      "end_index": 688,
+      "concept_length": 34,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "770315",
+      "concept_form": "Homo sapiens",
+      "preferred_term": "Homo sapiens",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 567,
+      "end_index": 579,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_147",
+      "concept_form": "transcription",
+      "preferred_term": "transcription",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 308,
+      "end_index": 321,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "8478",
+      "concept_form": "Chrysemys picta bellii",
+      "preferred_term": "Chrysemys picta bellii",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 367,
+      "end_index": 389,
+      "concept_length": 22,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "covocorganism",
+      "version": "v2.0",
+      "concept_id": "SP_14",
+      "concept_form": "pangolin",
+      "preferred_term": "Manidae",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 167,
+      "end_index": 175,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "69676",
+      "concept_form": "isoform",
+      "preferred_term": "4-Iodoanisole",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 257,
+      "end_index": 264,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "505714",
+      "concept_form": "Drosophila melanogaster",
+      "preferred_term": "Drosophila melanogaster",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 223,
+      "end_index": 246,
+      "concept_length": 23,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D000086642",
+      "concept_form": "pangolin",
+      "preferred_term": "Pangolins",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 167,
+      "end_index": 175,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "NP_001137211.1",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 850,
+      "end_index": 864,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ott",
+      "version": "v3.6",
+      "concept_id": "729489",
+      "concept_form": "Bos taurus",
+      "preferred_term": "Botaurus",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 808,
+      "end_index": 818,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "refseq:MIR:00000039",
+      "concept_form": "NP_001139757.1",
+      "preferred_term": "RefSeq",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 621,
+      "end_index": 635,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "9606",
+      "concept_form": "Homo sapiens",
+      "preferred_term": "Homo sapiens",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 567,
+      "end_index": 579,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D020033",
+      "concept_form": "isoform",
+      "preferred_term": "Protein Isoforms",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 7,
+      "start_index": 921,
+      "end_index": 928,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D010957",
+      "concept_form": "plasmid",
+      "preferred_term": "Plasmids",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 199,
+      "end_index": 206,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "P35958",
+      "concept_form": "proteins",
+      "preferred_term": "tat",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 18,
+      "end_index": 26,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "LvTcf",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 231,
+      "end_index": 236,
+      "concept_length": 5,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "45202",
+      "concept_form": "plasmid",
+      "preferred_term": "unidentified plasmid",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 199,
+      "end_index": 206,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_0P17",
+      "concept_form": "cloned",
+      "preferred_term": "R3230AC clone D",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 176,
+      "end_index": 182,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D017781",
+      "concept_form": "immediate-early genes",
+      "preferred_term": "Genes, Immediate-Early",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 81,
+      "end_index": 102,
+      "concept_length": 21,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "disease",
+      "concept_source": "ncit",
+      "version": "v23.10e",
+      "concept_id": "C38758",
+      "concept_form": "expressed",
+      "preferred_term": "Positive Finding",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 214,
+      "end_index": 223,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "ena.embl:MIR:00000372",
+      "concept_form": "WSV056",
+      "preferred_term": "ENA",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 164,
+      "end_index": 170,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_51",
+      "concept_form": "genes",
+      "preferred_term": "Genes",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 97,
+      "end_index": 102,
+      "concept_length": 5,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "chebi",
+      "version": "v227",
+      "concept_id": "CHEBI:36080",
+      "concept_form": "proteins",
+      "preferred_term": "protein",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 18,
+      "end_index": 26,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "drug",
+      "concept_source": "drugbank",
+      "version": "v5.1.10",
+      "concept_id": "DB13149",
+      "concept_form": "proteins",
+      "preferred_term": "Protein S human",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 18,
+      "end_index": 26,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D008403",
+      "concept_form": "Screening",
+      "preferred_term": "Mass Screening",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 0,
+      "end_index": 9,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "uniprot_swissprot",
+      "version": "v11",
+      "concept_id": "Q8VAJ4",
+      "concept_form": "WSV403",
+      "preferred_term": "WSV403",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 112,
+      "end_index": 118,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_C190",
+      "concept_form": "High Five",
+      "preferred_term": "BTI-Tn-5B1-4",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 259,
+      "end_index": 268,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "WSSV",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 13,
+      "end_index": 17,
+      "concept_length": 4,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "ppi-ptm",
+      "concept_source": "ppiptm",
+      "version": "unknown",
+      "concept_id": "PPI:5",
+      "concept_form": "interact with",
+      "preferred_term": "interact",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 32,
+      "end_index": 45,
+      "concept_length": 13,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "WSSV",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 76,
+      "end_index": 80,
+      "concept_length": 4,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D017293",
+      "concept_form": "proteins",
+      "preferred_term": "Protein S",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 18,
+      "end_index": 26,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "WSV056",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 164,
+      "end_index": 170,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D010957",
+      "concept_form": "plasmid",
+      "preferred_term": "Plasmids",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 248,
+      "end_index": 255,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "High",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 259,
+      "end_index": 263,
+      "concept_length": 4,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Figure",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 64,
+      "end_index": 70,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "species",
+      "concept_source": "ncbitaxon_full",
+      "version": "v.2023-12-18",
+      "concept_id": "45202",
+      "concept_form": "plasmid",
+      "preferred_term": "unidentified plasmid",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 9,
+      "start_index": 248,
+      "end_index": 255,
+      "concept_length": 7,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "molecular_interaction",
+      "concept_source": "psimi",
+      "version": "v1.2",
+      "concept_id": "MI:0019",
+      "concept_form": "Co-IP",
+      "preferred_term": "coimmunoprecipitation",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 10,
+      "start_index": 39,
+      "end_index": 44,
+      "concept_length": 5,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Co-IP",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 10,
+      "start_index": 39,
+      "end_index": 44,
+      "concept_length": 5,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D015153",
+      "concept_form": "western blotting",
+      "preferred_term": "Blotting, Western",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 10,
+      "start_index": 60,
+      "end_index": 76,
+      "concept_length": 16,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_164",
+      "concept_form": "western blotting",
+      "preferred_term": "Western-Blot",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 10,
+      "start_index": 60,
+      "end_index": 76,
+      "concept_length": 16,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biomedical_vocab",
+      "concept_source": "covocbiomed",
+      "version": "v1.0",
+      "concept_id": "BMV_117",
+      "concept_form": "purification",
+      "preferred_term": "purification",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 4,
+      "end_index": 16,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "disease",
+      "concept_source": "ncit",
+      "version": "v23.10e",
+      "concept_id": "C38758",
+      "concept_form": "expressed",
+      "preferred_term": "Positive Finding",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 93,
+      "end_index": 102,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "disease",
+      "concept_source": "ncit",
+      "version": "v23.10e",
+      "concept_id": "C38758",
+      "concept_form": "expressed",
+      "preferred_term": "Positive Finding",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 26,
+      "end_index": 35,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "High",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 39,
+      "end_index": 43,
+      "concept_length": 4,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "FLAG-LvTcf",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 79,
+      "end_index": 89,
+      "concept_length": 10,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_C190",
+      "concept_form": "High Five",
+      "preferred_term": "BTI-Tn-5B1-4",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 140,
+      "end_index": 149,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Figure",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 67,
+      "end_index": 73,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "cell line",
+      "concept_source": "cellosaurus",
+      "version": "47.0",
+      "concept_id": "CVCL_C190",
+      "concept_form": "High Five",
+      "preferred_term": "BTI-Tn-5B1-4",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 39,
+      "end_index": 48,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "High",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 140,
+      "end_index": 144,
+      "concept_length": 4,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "WSV083DM",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 128,
+      "end_index": 136,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "LvTcf",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 20,
+      "end_index": 25,
+      "concept_length": 5,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "method",
+      "concept_source": "detectionmethods",
+      "version": "v2022",
+      "concept_id": "ViDM72",
+      "concept_form": "purification",
+      "preferred_term": "purification",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 4,
+      "end_index": 16,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "WSV083WT",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 12,
+      "start_index": 116,
+      "end_index": 124,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "ppi-ptm",
+      "concept_source": "ppiptm",
+      "version": "unknown",
+      "concept_id": "PPI:1",
+      "concept_form": "Affinity",
+      "preferred_term": "affinity",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 13,
+      "start_index": 68,
+      "end_index": 76,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "biotic_interaction",
+      "concept_source": "robiext",
+      "version": "unknown",
+      "concept_id": "ROBI_000048",
+      "concept_form": "Affinity",
+      "preferred_term": "has affinity with",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 13,
+      "start_index": 68,
+      "end_index": 76,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Affinity",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 13,
+      "start_index": 68,
+      "end_index": 76,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "86222",
+      "concept_form": "Affinity",
+      "preferred_term": "Carfentrazone-ethyl",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 13,
+      "start_index": 68,
+      "end_index": 76,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Anti-FLAG",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 13,
+      "start_index": 55,
+      "end_index": 64,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "SDS-PAGE",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 14,
+      "start_index": 42,
+      "end_index": 50,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "54603930",
+      "concept_form": "Coomassie blue",
+      "preferred_term": "Coomassie Blue",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 14,
+      "start_index": 68,
+      "end_index": 82,
+      "concept_length": 14,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "gene",
+      "concept_source": "nextprot",
+      "version": "v2.56.0",
+      "concept_id": "NX_P20132",
+      "concept_form": "SDS",
+      "preferred_term": "SDS",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 14,
+      "start_index": 42,
+      "end_index": 45,
+      "concept_length": 3,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D004591",
+      "concept_form": "SDS-PAGE",
+      "preferred_term": "Electrophoresis, Polyacrylamide Gel",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 14,
+      "start_index": 42,
+      "end_index": 50,
+      "concept_length": 8,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "accession_numbers",
+      "concept_source": "identifiers",
+      "version": "v02-2024",
+      "concept_id": "biocyc:MIR:00000194",
+      "concept_form": "Coomassie",
+      "preferred_term": "BioCyc",
+      "nature": "pattern",
+      "field": null,
+      "sentence_number": 14,
+      "start_index": 68,
+      "end_index": 77,
+      "concept_length": 9,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "disprot_type3",
+      "concept_source": "disprot_type3",
+      "version": "v1.0",
+      "concept_id": "PR023",
+      "concept_form": "spectrometry",
+      "preferred_term": "Spectrometry",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 15,
+      "start_index": 54,
+      "end_index": 66,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "disprot_type4",
+      "concept_source": "disprot_type4",
+      "version": "v1.0",
+      "concept_id": "PR023",
+      "concept_form": "spectrometry",
+      "preferred_term": "Spectrometry",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 15,
+      "start_index": 54,
+      "end_index": 66,
+      "concept_length": 12,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "disease",
+      "concept_source": "ncit",
+      "version": "v23.10e",
+      "concept_id": "C34808",
+      "concept_form": "mass",
+      "preferred_term": "Mass",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 15,
+      "start_index": 49,
+      "end_index": 53,
+      "concept_length": 4,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "mesh",
+      "concept_source": "mesh",
+      "version": "v2024",
+      "concept_id": "D013058",
+      "concept_form": "mass spectrometry",
+      "preferred_term": "Mass Spectrometry",
+      "nature": "pref_term",
+      "field": null,
+      "sentence_number": 15,
+      "start_index": 49,
+      "end_index": 66,
+      "concept_length": 17,
+      "provenance": "ECO_0000366"
+    },
+    {
+      "type": "chemical",
+      "concept_source": "pubchemmesh",
+      "version": "unknown",
+      "concept_id": "3332",
+      "concept_form": "target",
+      "preferred_term": "Felbinac",
+      "nature": "synonym",
+      "field": null,
+      "sentence_number": 15,
+      "start_index": 4,
+      "end_index": 10,
+      "concept_length": 6,
+      "provenance": "ECO_0000366"
+    }
+  ],
+  "relations": [
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        84
+      ],
+      "concept2": [
+        42,
+        113,
+        123,
+        135,
+        171,
+        176
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        86
+      ],
+      "concept2": [
+        42,
+        113,
+        123,
+        135,
+        171,
+        176
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        42,
+        113,
+        123,
+        135,
+        171,
+        176
+      ],
+      "concept2": [
+        99
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        129
+      ],
+      "concept2": [
+        42,
+        113,
+        123,
+        135,
+        171,
+        176
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        143
+      ],
+      "concept2": [
+        42,
+        113,
+        123,
+        135,
+        171,
+        176
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        158
+      ],
+      "concept2": [
+        42,
+        113,
+        123,
+        135,
+        171,
+        176
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        42,
+        113,
+        123,
+        135,
+        171,
+        176
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        170
+      ],
+      "concept2": [
+        42,
+        113,
+        123,
+        135,
+        171,
+        176
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        42,
+        113,
+        123,
+        135,
+        171,
+        176
+      ],
+      "concept2": [
+        182
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        42,
+        113,
+        123,
+        135,
+        171,
+        176
+      ],
+      "concept2": [
+        190
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        60
+      ],
+      "concept2": [
+        84
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        60
+      ],
+      "concept2": [
+        86
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        60
+      ],
+      "concept2": [
+        99
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        60
+      ],
+      "concept2": [
+        129
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        60
+      ],
+      "concept2": [
+        143
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        60
+      ],
+      "concept2": [
+        158
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        60
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        60
+      ],
+      "concept2": [
+        170
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        60
+      ],
+      "concept2": [
+        182
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        60
+      ],
+      "concept2": [
+        187
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        60
+      ],
+      "concept2": [
+        190
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        84
+      ],
+      "concept2": [
+        86
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        84
+      ],
+      "concept2": [
+        99
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        84
+      ],
+      "concept2": [
+        129
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        84
+      ],
+      "concept2": [
+        143
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        84
+      ],
+      "concept2": [
+        158
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        84
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        84
+      ],
+      "concept2": [
+        170
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        84
+      ],
+      "concept2": [
+        182
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        84
+      ],
+      "concept2": [
+        187
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        84
+      ],
+      "concept2": [
+        190
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        86
+      ],
+      "concept2": [
+        99
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        86
+      ],
+      "concept2": [
+        129
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        86
+      ],
+      "concept2": [
+        143
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        86
+      ],
+      "concept2": [
+        158
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        86
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        86
+      ],
+      "concept2": [
+        170
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        86
+      ],
+      "concept2": [
+        182
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        86
+      ],
+      "concept2": [
+        187
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        86
+      ],
+      "concept2": [
+        190
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        129
+      ],
+      "concept2": [
+        99
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        143
+      ],
+      "concept2": [
+        99
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        158
+      ],
+      "concept2": [
+        99
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        99
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        170
+      ],
+      "concept2": [
+        99
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        99
+      ],
+      "concept2": [
+        182
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        187
+      ],
+      "concept2": [
+        99
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        99
+      ],
+      "concept2": [
+        190
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        143
+      ],
+      "concept2": [
+        129
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        158
+      ],
+      "concept2": [
+        129
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        129
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        170
+      ],
+      "concept2": [
+        129
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        129
+      ],
+      "concept2": [
+        182
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        187
+      ],
+      "concept2": [
+        129
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        129
+      ],
+      "concept2": [
+        190
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        143
+      ],
+      "concept2": [
+        158
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        143
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        143
+      ],
+      "concept2": [
+        170
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        143
+      ],
+      "concept2": [
+        182
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        143
+      ],
+      "concept2": [
+        187
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        143
+      ],
+      "concept2": [
+        190
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        158
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        158
+      ],
+      "concept2": [
+        170
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        158
+      ],
+      "concept2": [
+        182
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        158
+      ],
+      "concept2": [
+        187
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        158
+      ],
+      "concept2": [
+        190
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        170
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        182
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        187
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        190
+      ],
+      "concept2": [
+        159
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        170
+      ],
+      "concept2": [
+        182
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        170
+      ],
+      "concept2": [
+        187
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        170
+      ],
+      "concept2": [
+        190
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        187
+      ],
+      "concept2": [
+        182
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        190
+      ],
+      "concept2": [
+        182
+      ],
+      "concept3": []
+    },
+    {
+      "type": "biotic_interactions",
+      "concept1": [
+        187
+      ],
+      "concept2": [
+        190
+      ],
+      "concept3": []
+    }
+  ]
+}

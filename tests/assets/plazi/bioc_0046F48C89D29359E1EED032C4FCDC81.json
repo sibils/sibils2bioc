@@ -1,0 +1,265 @@
+{
+  "id": "0046F48C89D29359E1EED032C4FCDC81",
+  "infons": {
+    "treatment_title": "Camponotus Wroughtonii Forel, sp. nov.",
+    "zenodo-doi": "http://doi.org/10.5281/zenodo.6293004",
+    "treatment-bank-uri": "http://treatment.plazi.org/id/0046F48C89D29359E1EED032C4FCDC81",
+    "article-title": "Les formicides de l'Empire des Indes et de Ceylan. Part II. Suite au genre Camponotus",
+    "publication-doi": null,
+    "nomenclature-taxon-name": "Camponotus Wroughtonii Forel"
+  },
+  "passages": [
+    {
+      "infons": {
+        "field": "treatment_title",
+        "sentence_number": 1,
+        "sentence_length": 38,
+        "offset": 0
+      },
+      "text": "Camponotus Wroughtonii Forel, sp. nov.",
+      "annotations": [
+        {
+          "id": "0",
+          "infons": {
+            "type": "accession_numbers",
+            "concept_source": "identifiers",
+            "version": "v02-2024",
+            "concept_id": "biocyc:MIR:00000194",
+            "concept_form": "Wroughtonii",
+            "preferred_term": "BioCyc",
+            "nature": "pattern",
+            "start_index": 11,
+            "end_index": 22,
+            "concept_length": 11
+          },
+          "text": "Wroughtonii",
+          "locations": [
+            {
+              "offset": 11,
+              "length": 11
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "infons": {
+            "type": "species",
+            "concept_source": "ott",
+            "version": "v3.6",
+            "concept_id": "3260023",
+            "concept_form": "Camponotus Wroughtonii",
+            "preferred_term": "Camponotus wroughtonii",
+            "nature": "pref_term",
+            "start_index": 0,
+            "end_index": 22,
+            "concept_length": 22
+          },
+          "text": "Camponotus Wroughtonii",
+          "locations": [
+            {
+              "offset": 0,
+              "length": 22
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "infons": {
+            "type": "species",
+            "concept_source": "ncbitaxon_full",
+            "version": "v.2023-12-18",
+            "concept_id": "13390",
+            "concept_form": "Camponotus",
+            "preferred_term": "Camponotus",
+            "nature": "pref_term",
+            "start_index": 0,
+            "end_index": 10,
+            "concept_length": 10
+          },
+          "text": "Camponotus",
+          "locations": [
+            {
+              "offset": 0,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "infons": {
+            "type": "gene",
+            "concept_source": "nextprot",
+            "version": "v2.56.0",
+            "concept_id": "NX_Q9UIW2",
+            "concept_form": "nov",
+            "preferred_term": "PLXNA1",
+            "nature": "synonym",
+            "start_index": 34,
+            "end_index": 37,
+            "concept_length": 3
+          },
+          "text": "nov",
+          "locations": [
+            {
+              "offset": 34,
+              "length": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "infons": {
+        "field": "nomenclature-taxon-name",
+        "sentence_number": 2,
+        "sentence_length": 28,
+        "offset": 38
+      },
+      "text": "Camponotus Wroughtonii Forel",
+      "annotations": [
+        {
+          "id": "4",
+          "infons": {
+            "type": "accession_numbers",
+            "concept_source": "identifiers",
+            "version": "v02-2024",
+            "concept_id": "biocyc:MIR:00000194",
+            "concept_form": "Wroughtonii",
+            "preferred_term": "BioCyc",
+            "nature": "pattern",
+            "start_index": 11,
+            "end_index": 22,
+            "concept_length": 11
+          },
+          "text": "Wroughtonii",
+          "locations": [
+            {
+              "offset": 11,
+              "length": 11
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "infons": {
+            "type": "species",
+            "concept_source": "ncbitaxon_full",
+            "version": "v.2023-12-18",
+            "concept_id": "13390",
+            "concept_form": "Camponotus",
+            "preferred_term": "Camponotus",
+            "nature": "pref_term",
+            "start_index": 0,
+            "end_index": 10,
+            "concept_length": 10
+          },
+          "text": "Camponotus",
+          "locations": [
+            {
+              "offset": 0,
+              "length": 10
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "infons": {
+            "type": "species",
+            "concept_source": "ott",
+            "version": "v3.6",
+            "concept_id": "3260023",
+            "concept_form": "Camponotus Wroughtonii",
+            "preferred_term": "Camponotus wroughtonii",
+            "nature": "pref_term",
+            "start_index": 0,
+            "end_index": 22,
+            "concept_length": 22
+          },
+          "text": "Camponotus Wroughtonii",
+          "locations": [
+            {
+              "offset": 0,
+              "length": 22
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "infons": {
+        "field": "text",
+        "sentence_number": 3,
+        "sentence_length": 25,
+        "offset": 66
+      },
+      "text": "This treatment is a stub.",
+      "annotations": []
+    },
+    {
+      "infons": {
+        "field": "text",
+        "sentence_number": 4,
+        "sentence_length": 55,
+        "offset": 91
+      },
+      "text": "You can help Plazi making the full treatment available.",
+      "annotations": [
+        {
+          "id": "7",
+          "infons": {
+            "type": "accession_numbers",
+            "concept_source": "identifiers",
+            "version": "v02-2024",
+            "concept_id": "biocyc:MIR:00000194",
+            "concept_form": "Plazi",
+            "preferred_term": "BioCyc",
+            "nature": "pattern",
+            "start_index": 13,
+            "end_index": 18,
+            "concept_length": 5
+          },
+          "text": "Plazi",
+          "locations": [
+            {
+              "offset": 13,
+              "length": 5
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "infons": {
+            "type": "biotic_interaction",
+            "concept_source": "robiext",
+            "version": "unknown",
+            "concept_id": "ROBI_000044",
+            "concept_form": "help",
+            "preferred_term": "helps",
+            "nature": "synonym",
+            "start_index": 8,
+            "end_index": 12,
+            "concept_length": 4
+          },
+          "text": "help",
+          "locations": [
+            {
+              "offset": 8,
+              "length": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "infons": {
+        "field": "text",
+        "sentence_number": 5,
+        "sentence_length": 0,
+        "offset": 146
+      },
+      "text": "",
+      "annotations": []
+    }
+  ],
+  "relations": []
+}

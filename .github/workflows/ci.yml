@@ -1,0 +1,21 @@
+---
+name: Tests
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+    branches: ["master"]
+
+jobs:
+  tests:
+    name: "Tests"
+    runs-on: "ubuntu-latest"
+    steps:
+      - uses: "actions/checkout@v3"
+      - uses: eifinger/setup-rye@v2
+        id: install-rye
+      - name: "Install dependencies"
+        run: "rye sync"
+      - name: "Exécute les tests sans les benchmarks"
+        run: "rye run pytest tests"
