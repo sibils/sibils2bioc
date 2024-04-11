@@ -31,7 +31,8 @@ def convert_to_BioC(sibils_doc,collection) :
     
     # article infons: flat_fields (general case)
     for f in flat_fields[collection] :
-        bioc_doc["infons"][f] = sibils_doc["document"][f]
+        if (f in sibils_doc["document"]):
+            bioc_doc["infons"][f] = sibils_doc["document"][f]
 
     # load annotations
     annotations_per_sentences = {}
