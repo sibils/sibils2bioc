@@ -40,9 +40,9 @@ def convert_to_BioC(sibils_doc,collection) :
     for a in sibils_doc["annotations"] :
         annotation = {"id":str(ia),"infons":{}}
         ia += 1
-        annotations_fields = ["type","concept_source","version","concept_id","concept_form",
-                        "preferred_term","nature","start_index","end_index",
-                        "concept_length"]
+        annotations_fields = ["type","concept_source","version","concept_id",
+                           "preferred_term","nature",
+                           "evidence_code","provenance","provider","score","attributes"]
         for f in annotations_fields :
             if (f in a) :
                 annotation["infons"][f] = a[f]
