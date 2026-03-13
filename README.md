@@ -1,14 +1,12 @@
 # sibils2bioc
 
-A Python library for converting SIBiLS internal format to BioC format, supporting multiple document collections including PubMed Central (PMC), MEDLINE, Plazi, supplementary data, and Zenodo.
+A Python library for converting SIBiLS internal document format to [BioC JSON](https://github.com/2mh/PyBioC/blob/master/BioC.dtd) format.
 
 ## Overview
 
-The conversion preserves document metadata, text passages, annotations, and relationships, ensuring full fidelity during format transformation.
+The conversion is generic and collection-agnostic: document metadata, text passages, annotations, and relations are all preserved. Document-level annotation offsets are computed as required by the BioC DTD (`passage_offset + annotation.start_index`).
 
 ## Installation
-
-### From source
 
 ```bash
 pip install git+ssh://git@github.com/sibils/sibils2bioc.git
@@ -16,49 +14,63 @@ pip install git+ssh://git@github.com/sibils/sibils2bioc.git
 
 ## API Reference
 
-### Main Function
-
 ```python
 from sibils2bioc import convert_to_BioC
 
-def convert_to_BioC(sibils_doc: dict, collection: str) -> dict:
-    """
-    Convert a SIBiLS document to BioC format.
-
-    Args:
-        sibils_doc (dict): SIBiLS document in JSON format
-        collection (str): Document collection type. Supported values:
-            - "medline": MEDLINE/PubMed citations
-            - "pmc": PubMed Central full-text articles
-            - "plazi": Plazi taxonomic treatments
-            - "suppdata": Supplementary data files
-            - "zenodo": Zenodo research data
-
-    Returns:
-        dict: Document in BioC format with the following structure:
-            - id: Document identifier
-            - infons: Document metadata
-            - passages: Text passages with annotations
-            - relations: Relationships between entities
-    """
+convert_to_BioC(sibils_doc: dict, collection: str = None) -> dict
 ```
 
-## Usage Examples
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `sibils_doc` | `dict` | A single SIBiLS document. Must contain `_id`, `document`, `sentences`, `annotations`, `relations`. |
+| `collection` | `str` (optional) | Collection name (e.g. `"pmc"`, `"medline"`). Kept for API compatibility; not used in the conversion logic. |
 
-### Basic Usage
+**Returns** a BioC document dict:
+
+```
+{
+  "id":       str,
+  "infons":   { key: value, ... },   # all fields from document, flattened
+  "passages": [                       # one passage per sentence
+    {
+      "offset":      int,             # document-level character offset
+      "text":        str,
+      "infons":      { field, tag, content_id, sentence_number, sentence_length },
+      "annotations": [ ... ],
+      "relations":   []
+    }
+  ],
+  "relations": [ ... ]                # document-level relations
+}
+```
+
+**`infons` flattening rules** (applied to every field of `document`):
+
+| Source value | Result in `infons` |
+|---|---|
+| `None` | `""` |
+| scalar (`str`, `int`, …) | value as-is |
+| list of scalars | `";"`-joined string |
+| list of dicts | `";"`-joined string of the best name sub-field (`name`, `text`, `term`, `label`, `value`), deduped |
+| anything else | `str()` |
+
+## Usage
 
 ```python
 import json
 from sibils2bioc import convert_to_BioC
 
-# Load a SIBiLS document
-with open("sibils_document.json", "r") as f:
+with open("sibils_document.json") as f:
     sibils_doc = json.load(f)
 
-# Convert to BioC format
-bioc_doc = convert_to_BioC(sibils_doc, "medline")
+bioc_doc = convert_to_BioC(sibils_doc)
 
-# Save the result
 with open("bioc_document.json", "w") as f:
     json.dump(bioc_doc, f, indent=2)
+```
+
+Converting a batch (e.g. from the SIBiLS fetch API):
+
+```python
+bioc_articles = [convert_to_BioC(doc) for doc in response["sibils_article_set"]]
 ```
