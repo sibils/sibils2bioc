@@ -90,6 +90,77 @@ def _document_to_infons(doc: dict) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# Table helpers (PMC)
+# ---------------------------------------------------------------------------
+
+def _extract_tables(doc: dict) -> list:
+    """Collecte tous les éléments tag='table' dans body/back/float sections."""
+    tables = []
+    all_sections = (
+        doc.get("body_sections", [])
+        + doc.get("back_sections", [])
+        + doc.get("float_sections", [])
+    )
+    for section in all_sections:
+        for content in section.get("contents", []):
+            if content.get("tag") == "table":
+                tables.append(content)
+    return tables
+
+
+def _table_to_passages(table: dict, offset: int) -> tuple[list, int]:
+    """Convertit une table SIBiLS en passages BioC (title, caption, footer, content)."""
+    passages = []
+    table_id = table.get("xref_id", "")
+
+    def _make(type_: str, text: str, extra: dict | None = None) -> dict:
+        infons = {"type": type_, "section_type": "TABLE"}
+        if table_id:
+            infons["id"] = table_id
+        if table.get("xref_url"):
+            infons["url"] = table["xref_url"]
+        if table.get("id"):
+            infons["sibils_content_id"] = table["id"]
+        if extra:
+            infons.update(extra)
+        return {
+            "offset": offset,
+            "text": text,
+            "infons": infons,
+            "annotations": [],
+            "relations": [],
+        }
+
+    label = (table.get("label") or "").strip()
+    if label:
+        passages.append(_make("table_title", label))
+        offset += len(label) + 1
+
+    caption = (table.get("caption") or "").strip()
+    if caption:
+        passages.append(_make("table_caption", caption))
+        offset += len(caption) + 1
+
+    footer = (table.get("footer") or "").strip()
+    if footer:
+        passages.append(_make("table_footer", footer))
+        offset += len(footer) + 1
+
+    flat = "\n".join(
+        "\t".join(str(c) for c in row)
+        for row in table.get("table_values", [])
+    )
+    extra: dict = {}
+    xml = (table.get("xml") or "").strip()
+    if xml:
+        extra["html"] = xml  # convention FAIR-SMART
+    passages.append(_make("table", flat, extra or None))
+    offset += len(flat) + 1
+
+    return passages, offset
+
+
+# ---------------------------------------------------------------------------
 # Main conversion function
 # ---------------------------------------------------------------------------
 
@@ -177,6 +248,12 @@ def convert_to_BioC(sibils_doc: dict, collection: str = None) -> dict:
 
         bioc_doc["passages"].append(passage)
         doc_offset += sentence_length
+
+    # --- Tables (PMC uniquement) ---------------------------------------------
+    if collection == "pmc":
+        for table in _extract_tables(sibils_doc.get("document", {})):
+            table_passages, doc_offset = _table_to_passages(table, doc_offset)
+            bioc_doc["passages"].extend(table_passages)
 
     # --- Relations -----------------------------------------------------------
     ir = 0
