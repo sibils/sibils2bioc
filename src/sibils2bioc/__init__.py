@@ -9,11 +9,11 @@ Document structure produced:
   {
     "id": str,
     "infons": { key: value, ... },   # document-level metadata
-    "passages": [                     # one passage per sentence
+    "passages": [                     # one passage per sentence or table
       {
         "offset": int,               # character offset in document (required by DTD)
         "text": str,
-        "infons": { ... },           # sentence metadata (field, tag, sentence_number, …)
+        "infons": { ... },           # sentence/table metadata
         "annotations": [ ... ],
         "relations": []
       }
@@ -90,74 +90,82 @@ def _document_to_infons(doc: dict) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# Table helpers (PMC)
+# Table helper (PMC) — one BioC passage per table
 # ---------------------------------------------------------------------------
 
-def _extract_tables(doc: dict) -> list:
-    """Collecte tous les éléments tag='table' dans body/back/float sections."""
-    tables = []
-    all_sections = (
-        doc.get("body_sections", [])
-        + doc.get("back_sections", [])
-        + doc.get("float_sections", [])
-    )
-    for section in all_sections:
-        for content in section.get("contents", []):
-            if content.get("tag") == "table":
-                tables.append(content)
-    return tables
+def _table_to_passage(table: dict, offset: int) -> tuple[dict, int]:
+    """
+    Convert a SIBiLS table item to a single BioC passage.
+
+    text  : header row (table_columns joined by \\t) + one row per
+            table_values entry, each joined by \\t, all separated by \\n.
+    infons: section_type + all non-empty metadata fields (table_id, label,
+            caption, footer, xref_url, xml). Missing / empty fields are omitted.
+    """
+    # Build text
+    lines = []
+    columns = table.get("table_columns") or []
+    if columns:
+        lines.append("\t".join(str(c) for c in columns))
+    for row in table.get("table_values") or []:
+        lines.append("\t".join(str(c) for c in row))
+    text = "\n".join(lines)
+    if text:
+        text += "\n"
+
+    # Build infons — omit empty/absent fields
+    infons: dict = {"section_type": "TABLE"}
+    for src_key, dst_key in (
+        ("xref_id",  "table_id"),
+        ("label",    "label"),
+        ("caption",  "caption"),
+        ("footer",   "footer"),
+        ("xref_url", "xref_url"),
+        ("xml",      "xml"),
+    ):
+        val = (table.get(src_key) or "").strip()
+        if val:
+            infons[dst_key] = val
+
+    passage = {
+        "offset": offset,
+        "text": text,
+        "infons": infons,
+        "annotations": [],
+        "relations": [],
+    }
+    return passage, offset + len(text)
 
 
-def _table_to_passages(table: dict, offset: int) -> tuple[list, int]:
-    """Convertit une table SIBiLS en passages BioC (title, caption, footer, content)."""
-    passages = []
-    table_id = table.get("xref_id", "")
+# ---------------------------------------------------------------------------
+# Sentence helper
+# ---------------------------------------------------------------------------
 
-    def _make(type_: str, text: str, extra: dict | None = None) -> dict:
-        infons = {"type": type_, "section_type": "TABLE"}
-        if table_id:
-            infons["id"] = table_id
-        if table.get("xref_url"):
-            infons["url"] = table["xref_url"]
-        if table.get("id"):
-            infons["sibils_content_id"] = table["id"]
-        if extra:
-            infons.update(extra)
-        return {
-            "offset": offset,
-            "text": text,
-            "infons": infons,
-            "annotations": [],
-            "relations": [],
-        }
+def _sentence_passage(
+    s: dict, doc_offset: int, annotations_per_sentence: dict
+) -> tuple[dict, int]:
+    """Build a BioC passage from a SIBiLS sentence dict."""
+    sentence_length = s.get("sentence_length", 0)
 
-    label = (table.get("label") or "").strip()
-    if label:
-        passages.append(_make("table_title", label))
-        offset += len(label) + 1
+    passage = {
+        "offset": doc_offset,
+        "text": s.get("sentence", ""),
+        "infons": {},
+        "annotations": [],
+        "relations": [],
+    }
 
-    caption = (table.get("caption") or "").strip()
-    if caption:
-        passages.append(_make("table_caption", caption))
-        offset += len(caption) + 1
+    for f in ("field", "tag", "content_id", "sentence_number", "sentence_length"):
+        if f in s:
+            passage["infons"][f] = s[f]
 
-    footer = (table.get("footer") or "").strip()
-    if footer:
-        passages.append(_make("table_footer", footer))
-        offset += len(footer) + 1
+    sn = s.get("sentence_number")
+    for annotation in annotations_per_sentence.get(sn, []):
+        doc_level_offset = doc_offset + annotation.pop("_sentence_start_index")
+        annotation["locations"][0]["offset"] = doc_level_offset
+        passage["annotations"].append(annotation)
 
-    flat = "\n".join(
-        "\t".join(str(c) for c in row)
-        for row in table.get("table_values", [])
-    )
-    extra: dict = {}
-    xml = (table.get("xml") or "").strip()
-    if xml:
-        extra["html"] = xml  # convention FAIR-SMART
-    passages.append(_make("table", flat, extra or None))
-    offset += len(flat) + 1
-
-    return passages, offset
+    return passage, doc_offset + sentence_length
 
 
 # ---------------------------------------------------------------------------
@@ -174,8 +182,7 @@ def convert_to_BioC(sibils_doc: dict, collection: str = None) -> dict:
         One element from sibils_article_set. Must contain at minimum:
         '_id', 'document', 'sentences', 'annotations', 'relations'.
     collection : str, optional
-        Collection name (e.g. 'pmc', 'medline', …). Currently unused in the
-        generic conversion but kept for API compatibility and future use.
+        Collection name (e.g. 'pmc', 'medline', …).
 
     Returns
     -------
@@ -192,20 +199,16 @@ def convert_to_BioC(sibils_doc: dict, collection: str = None) -> dict:
     }
 
     # --- Pre-index annotations by sentence_number ----------------------------
-    # Annotation offsets in SIBiLS are relative to the sentence (start_index).
-    # BioC requires offsets relative to the whole document, so we add the
-    # cumulative passage offset when building each passage below.
     annotations_per_sentence: dict[int, list] = {}
     for ia, a in enumerate(sibils_doc.get("annotations", [])):
         annotation = {
             "id": str(ia),
             "infons": {},
             "text": a.get("concept_form", ""),
-            # offset will be corrected to document-level when building the passage
             "_sentence_start_index": a.get("start_index", 0),
             "locations": [
                 {
-                    "offset": a.get("start_index", 0),   # placeholder, fixed below
+                    "offset": a.get("start_index", 0),
                     "length": a.get("concept_length", 0),
                 }
             ],
@@ -221,39 +224,75 @@ def convert_to_BioC(sibils_doc: dict, collection: str = None) -> dict:
         sn = a.get("sentence_number")
         annotations_per_sentence.setdefault(sn, []).append(annotation)
 
-    # --- Build passages (one per sentence) -----------------------------------
-    doc_offset = 0  # running character offset across the whole document
+    # --- Build passages -------------------------------------------------------
+    doc_offset = 0
 
-    for s in sibils_doc.get("sentences", []):
-        sentence_length = s.get("sentence_length", 0)
-
-        passage = {
-            "offset": doc_offset,          # required top-level field in BioC
-            "text": s.get("sentence", ""),
-            "infons": {},
-            "annotations": [],
-            "relations": [],
-        }
-
-        for f in ("field", "tag", "content_id", "sentence_number", "sentence_length"):
-            if f in s:
-                passage["infons"][f] = s[f]
-
-        # Fix annotation offsets to document-level and attach to passage
-        sn = s.get("sentence_number")
-        for annotation in annotations_per_sentence.get(sn, []):
-            doc_level_offset = doc_offset + annotation.pop("_sentence_start_index")
-            annotation["locations"][0]["offset"] = doc_level_offset
-            passage["annotations"].append(annotation)
-
-        bioc_doc["passages"].append(passage)
-        doc_offset += sentence_length
-
-    # --- Tables (PMC uniquement) ---------------------------------------------
     if collection == "pmc":
-        for table in _extract_tables(sibils_doc.get("document", {})):
-            table_passages, doc_offset = _table_to_passages(table, doc_offset)
-            bioc_doc["passages"].extend(table_passages)
+        # PMC: interleave sentence passages and table passages in document order.
+        #
+        # Strategy:
+        #   1. Sentences without a content_id (title, abstract…) come first,
+        #      in their original sentence_number order.
+        #   2. Then walk body_sections / back_sections / float_sections in order.
+        #      For each content item:
+        #        - tag == "table"  → emit one table passage
+        #        - otherwise       → emit all sentences whose content_id matches
+        #   3. Any sentences whose content_id was not found in the sections are
+        #      emitted last (safety net, sorted by sentence_number).
+
+        sentences_by_cid: dict[str, list] = {}
+        sentences_no_cid: list = []
+        for s in sibils_doc.get("sentences", []):
+            cid = s.get("content_id")
+            if cid:
+                sentences_by_cid.setdefault(cid, []).append(s)
+            else:
+                sentences_no_cid.append(s)
+
+        # Step 1 — sentences without content_id
+        for s in sentences_no_cid:
+            passage, doc_offset = _sentence_passage(s, doc_offset, annotations_per_sentence)
+            bioc_doc["passages"].append(passage)
+
+        # Step 2 — walk sections in document order
+        doc_inner = sibils_doc.get("document", {})
+        all_sections = (
+            doc_inner.get("body_sections", [])
+            + doc_inner.get("back_sections", [])
+            + doc_inner.get("float_sections", [])
+        )
+        emitted_cids: set = set()
+        for section in all_sections:
+            for content in section.get("contents", []):
+                cid = content.get("id")
+                if content.get("tag") == "table":
+                    passage, doc_offset = _table_to_passage(content, doc_offset)
+                    bioc_doc["passages"].append(passage)
+                elif cid and cid in sentences_by_cid:
+                    for s in sentences_by_cid[cid]:
+                        passage, doc_offset = _sentence_passage(
+                            s, doc_offset, annotations_per_sentence
+                        )
+                        bioc_doc["passages"].append(passage)
+                    emitted_cids.add(cid)
+
+        # Step 3 — remaining sentences not matched to any section content item
+        remaining = [
+            s
+            for cid, slist in sentences_by_cid.items()
+            if cid not in emitted_cids
+            for s in slist
+        ]
+        remaining.sort(key=lambda s: s.get("sentence_number", 0))
+        for s in remaining:
+            passage, doc_offset = _sentence_passage(s, doc_offset, annotations_per_sentence)
+            bioc_doc["passages"].append(passage)
+
+    else:
+        # Non-PMC collections: process sentences in original order
+        for s in sibils_doc.get("sentences", []):
+            passage, doc_offset = _sentence_passage(s, doc_offset, annotations_per_sentence)
+            bioc_doc["passages"].append(passage)
 
     # --- Relations -----------------------------------------------------------
     ir = 0
