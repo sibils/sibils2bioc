@@ -21,6 +21,10 @@ Document structure produced:
     "relations": [ ... ]             # document-level relations
   }
 
+Passages come in the stored order of the sentences, which SIBiLS keeps in document
+order. A PMC document also gets one passage per table that has sentences, after them
+(see _tables_after_sentences).
+
 Annotation offsets (location.offset) are document-level offsets, as required by the
 BioC DTD. They are computed as: passage_offset + annotation.start_index.
 
@@ -104,7 +108,7 @@ def _document_to_infons(doc: dict) -> dict:
 
 
 # ---------------------------------------------------------------------------
-# Table helper (PMC) — one BioC passage per table
+# Table helpers (PMC) — one BioC passage per table
 # ---------------------------------------------------------------------------
 
 def _table_to_passage(table: dict, offset: int) -> tuple[dict, int]:
@@ -149,6 +153,31 @@ def _table_to_passage(table: dict, offset: int) -> tuple[dict, int]:
         "relations": [],
     }
     return passage, offset + len(text)
+
+
+def _tables_after_sentences(sibils_doc: dict) -> dict[int, dict]:
+    """
+    Give each table item of a PMC document the sentence its passage follows:
+    the last of the table's own sentences (table_caption, table_footer,
+    table_column, table_value), which carry the table's id as content_id.
+
+    A table without sentences has no caption, footer, columns or values, so it
+    has no text and gets no passage.
+
+    Returns {sentence index: table}.
+    """
+    last_sentence = {s.get("content_id"): i for i, s in enumerate(sibils_doc.get("sentences", []))}
+    doc_inner = sibils_doc.get("document", {})
+    tables_after = {}
+    for section in (
+        doc_inner.get("body_sections", [])
+        + doc_inner.get("back_sections", [])
+        + doc_inner.get("float_sections", [])
+    ):
+        for content in section.get("contents", []):
+            if content.get("tag") == "table" and content.get("id") in last_sentence:
+                tables_after[last_sentence[content["id"]]] = content
+    return tables_after
 
 
 # ---------------------------------------------------------------------------
@@ -196,7 +225,8 @@ def convert_to_BioC(sibils_doc: dict, collection: str = None) -> dict:
         One element from sibils_article_set. Must contain at minimum:
         '_id', 'document', 'sentences', 'annotations', 'relations'.
     collection : str, optional
-        Collection name (e.g. 'pmc', 'medline', …).
+        Collection name (e.g. 'pmc', 'medline', …). 'pmc' adds one passage
+        per table.
 
     Returns
     -------
@@ -234,73 +264,16 @@ def convert_to_BioC(sibils_doc: dict, collection: str = None) -> dict:
         annotations_per_sentence.setdefault(sn, []).append(annotation)
 
     # --- Build passages -------------------------------------------------------
+    # One passage per sentence, in stored order; in a PMC document, each table
+    # passage follows the last of the table's own sentences.
+    tables_after = _tables_after_sentences(sibils_doc) if collection == "pmc" else {}
     doc_offset = 0
 
-    if collection == "pmc":
-        # PMC: interleave sentence passages and table passages in document order.
-        #
-        # Strategy:
-        #   1. Sentences without a content_id (title, abstract…) come first,
-        #      in their original sentence_number order.
-        #   2. Then walk body_sections / back_sections / float_sections in order.
-        #      For each content item:
-        #        - tag == "table"  → emit one table passage
-        #        - otherwise       → emit all sentences whose content_id matches
-        #   3. Any sentences whose content_id was not found in the sections are
-        #      emitted last (safety net, sorted by sentence_number).
-
-        sentences_by_cid: dict[str, list] = {}
-        sentences_no_cid: list = []
-        for s in sibils_doc.get("sentences", []):
-            cid = s.get("content_id")
-            if cid:
-                sentences_by_cid.setdefault(cid, []).append(s)
-            else:
-                sentences_no_cid.append(s)
-
-        # Step 1 — sentences without content_id
-        for s in sentences_no_cid:
-            passage, doc_offset = _sentence_passage(s, doc_offset, annotations_per_sentence)
-            bioc_doc["passages"].append(passage)
-
-        # Step 2 — walk sections in document order
-        doc_inner = sibils_doc.get("document", {})
-        all_sections = (
-            doc_inner.get("body_sections", [])
-            + doc_inner.get("back_sections", [])
-            + doc_inner.get("float_sections", [])
-        )
-        emitted_cids: set = set()
-        for section in all_sections:
-            for content in section.get("contents", []):
-                cid = content.get("id")
-                if content.get("tag") == "table":
-                    passage, doc_offset = _table_to_passage(content, doc_offset)
-                    bioc_doc["passages"].append(passage)
-                elif cid and cid in sentences_by_cid:
-                    for s in sentences_by_cid[cid]:
-                        passage, doc_offset = _sentence_passage(
-                            s, doc_offset, annotations_per_sentence
-                        )
-                        bioc_doc["passages"].append(passage)
-                    emitted_cids.add(cid)
-
-        # Step 3 — remaining sentences not matched to any section content item
-        remaining = [
-            s
-            for cid, slist in sentences_by_cid.items()
-            if cid not in emitted_cids
-            for s in slist
-        ]
-        remaining.sort(key=lambda s: s.get("sentence_number", 0))
-        for s in remaining:
-            passage, doc_offset = _sentence_passage(s, doc_offset, annotations_per_sentence)
-            bioc_doc["passages"].append(passage)
-
-    else:
-        # Non-PMC collections: process sentences in original order
-        for s in sibils_doc.get("sentences", []):
-            passage, doc_offset = _sentence_passage(s, doc_offset, annotations_per_sentence)
+    for i, s in enumerate(sibils_doc.get("sentences", [])):
+        passage, doc_offset = _sentence_passage(s, doc_offset, annotations_per_sentence)
+        bioc_doc["passages"].append(passage)
+        if i in tables_after:
+            passage, doc_offset = _table_to_passage(tables_after[i], doc_offset)
             bioc_doc["passages"].append(passage)
 
     # --- Relations -----------------------------------------------------------
