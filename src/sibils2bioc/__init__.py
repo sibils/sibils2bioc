@@ -23,6 +23,10 @@ Document structure produced:
 
 Annotation offsets (location.offset) are document-level offsets, as required by the
 BioC DTD. They are computed as: passage_offset + annotation.start_index.
+
+Annotation infons hold every field of the SIBiLS annotation except the ones the BioC
+structure already holds (_ANNOTATION_PLACEMENT_FIELDS), so an annotation of an external
+provider keeps its own fields (category, bioc_id) beside provenance and evidence_code.
 """
 
 
@@ -33,6 +37,16 @@ BioC DTD. They are computed as: passage_offset + annotation.start_index.
 # When a metadata field contains a list of dicts, we look for these keys (in
 # order) to extract a human-readable string per item.
 _NAME_CANDIDATES = ["name", "text", "term", "label", "value"]
+
+# Fields of a SIBiLS annotation that the BioC annotation holds in its structure,
+# so they are not repeated as infons: concept_form is its text, start_index,
+# end_index and concept_length its location, field and sentence_number are the
+# infons of its passage. Every other field is copied: a list of fields to keep
+# would drop, silently, the fields a new provenance brings (category, bioc_id).
+_ANNOTATION_PLACEMENT_FIELDS = frozenset((
+    "concept_form", "start_index", "end_index", "concept_length",
+    "field", "sentence_number",
+))
 
 
 def _document_to_infons(doc: dict) -> dict:
@@ -203,7 +217,9 @@ def convert_to_BioC(sibils_doc: dict, collection: str = None) -> dict:
     for ia, a in enumerate(sibils_doc.get("annotations", [])):
         annotation = {
             "id": str(ia),
-            "infons": {},
+            "infons": {
+                k: v for k, v in a.items() if k not in _ANNOTATION_PLACEMENT_FIELDS
+            },
             "text": a.get("concept_form", ""),
             "_sentence_start_index": a.get("start_index", 0),
             "locations": [
@@ -213,13 +229,6 @@ def convert_to_BioC(sibils_doc: dict, collection: str = None) -> dict:
                 }
             ],
         }
-        for f in (
-            "type", "concept_source", "version", "concept_id",
-            "preferred_term", "nature", "evidence_code",
-            "provenance", "provider", "score", "attributes",
-        ):
-            if f in a:
-                annotation["infons"][f] = a[f]
 
         sn = a.get("sentence_number")
         annotations_per_sentence.setdefault(sn, []).append(annotation)

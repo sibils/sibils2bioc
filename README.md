@@ -44,6 +44,34 @@ convert_to_BioC(sibils_doc: dict, collection: str = None) -> dict
 }
 ```
 
+**Annotations**: one BioC annotation per SIBiLS annotation, in the passage of its sentence (an
+annotation whose `sentence_number` names no sentence is left out):
+
+```
+{
+  "id":        str,                   # position in sibils_doc["annotations"], named by relation nodes
+  "text":      concept_form,
+  "locations": [ { "offset": passage offset + start_index, "length": concept_length } ],
+  "infons":    { ... }                # every other field of the annotation, as is (null kept)
+}
+```
+
+`concept_form`, `start_index`, `end_index`, `concept_length`, `field` and `sentence_number` are not
+repeated in the annotation `infons`: the BioC structure holds them. Every other field is copied, so
+an annotation keeps whatever its producer gives it: `provenance` (`SIBILS`, or an external provider
+such as `FairClinical`), `evidence_code`, and for an external provider's annotation its `category`
+(e.g. `disease`, `pico_participant`) and `bioc_id` (the id of the annotation in the provider's own
+BioC). An external annotation may have a null `preferred_term`, `version`, `category` or
+`evidence_code`, and one without a concept a null `concept_source`, `concept_id` and `type`.
+
+The annotation `id` is a handle that relation nodes name. It is unique within the document, as BioC
+requires of ids at the level where the relations are, but it is not stable across releases. It is
+never the provider's id, which goes in `infons.bioc_id`. To find a provider annotation in the
+provider's original BioC, match the document `id`, `infons.provenance` and `infons.bioc_id` against
+the original annotation's `id`. Several annotations can share a `bioc_id`, because SIBiLS serves a
+provider annotation at every place it holds its text, such as a title or abstract held again in the
+body text. Each of these is a BioC annotation of its own, with one location in its own passage.
+
 **`infons` flattening rules** (applied to every field of `document`):
 
 | Source value | Result in `infons` |
